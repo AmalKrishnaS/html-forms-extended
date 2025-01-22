@@ -47,6 +47,7 @@ margin: 0 0 40px 0;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .form-row input[type='text'],
@@ -97,7 +98,28 @@ fieldset {
 
 .form-row input[type='text'],
   .form-row input[type='email'],   
-  .form-row select {              
+  .form-row select,
+  .form-row textarea {              
     width: 250px;
     height: initial;
+  }
+
+.form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+      
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  }
+  
+  .form-row .instructions {
+    color: #999999;
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin-left: 120px;
   }
