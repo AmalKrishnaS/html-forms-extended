@@ -120,6 +120,10 @@ fieldset {
 div.form-row.textarea {
   margin-bottom: 0;
 } 
+
+.form-row textarea {
+  width: 350px;
+}
   
   .form-row .instructions {
     color: #999999;
@@ -133,3 +137,28 @@ div.form-row.textarea {
     margin-bottom: 0;
     width: auto;
   }
+
+.form-row button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #FFFFFF;
+  background-color: #5995DA;
+
+  border: none;
+  border-radius: 3px;
+
+  margin-left: 180px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
