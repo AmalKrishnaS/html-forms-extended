@@ -22,7 +22,7 @@ body {
     border: 1px solid #D6D9DC;
     border-radius: 3px;
     
-    width: 80%;
+    width: 600px;
     margin: 40px 0;
     padding: 50px;
   }
@@ -37,7 +37,7 @@ background-color: #F6F7F8;
 border: 1px solid #D6D9DC;
 border-radius: 3px;
 
-width: 80%;
+width: 600px;
 padding: 50px;
 margin: 0 0 40px 0;
 }
@@ -46,8 +46,7 @@ margin: 0 0 40px 0;
     margin-bottom: 40px;
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .form-row input[type='text'],
@@ -61,7 +60,10 @@ margin: 0 0 40px 0;
 }
 
 .form-row label {
-    margin-bottom: 15px;
+  text-align: right;
+  width: 120px;
+  margin-top: 7px;
+  padding-right: 20px;
 }
 
 .form-row input[type='text']:invalid,
